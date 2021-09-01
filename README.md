@@ -12,10 +12,10 @@ utilises Page Object Model pattern
 
 ## Getting started
 
-##Visual Studio Config
+## Visual Studio Config
 * Install Visual Studio (Community 2019)
 
-Open Visual Studio and configure the following;
+**Open Visual Studio and configure the following;**
 * Install NuGet (package manager)
 * Connect to github project
 * Use NuGet to install Specflow, Nunit and Selenium:
