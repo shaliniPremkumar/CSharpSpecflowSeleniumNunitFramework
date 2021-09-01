@@ -14,6 +14,8 @@ Scenario Outline: Enter vehicle permit details
 	Examples:
 	| VehicleType			| SubTypeOrCapacity										| Address                                       | PermitStartDate	| PermitDurationInDays	|
 	| PassengerVehicle		| Sedan													| Unit 711 Sample Street Broadmeadows VIC 3047	| 05/10/2021		| 18					|
+
+
 	| PassengerVehicle		| StationWagon											| 12 Test Street Docklands VIC 3008				| 01/09/2021		| 28					|
 	| PassengerVehicle		| Coupe													| VIC 3000										| 01/02/2022		| 6						|
 	| PassengerVehicle		| Roadster												| Melbourne VIC 3000							| 01/09/2021		| 3						|
