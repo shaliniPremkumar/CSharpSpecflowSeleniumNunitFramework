@@ -128,3 +128,4 @@ C:\Users\Shalini\Desktop\Latest code\DOT_CSharp\obj\Debug\net5.0\UnregisteredVeh
 C:\Users\Shalini\Desktop\Latest code\DOT_CSharp\obj\Debug\net5.0\ref\UnregisteredVehiclePermitAutomation.dll
 C:\Users\Shalini\Desktop\Latest code\DOT_CSharp\obj\Debug\net5.0\UnregisteredVehiclePermitAutomation.pdb
 C:\Users\Shalini\Desktop\Latest code\DOT_CSharp\obj\Debug\net5.0\UnregisteredVehiclePermitAutomation.genruntimeconfig.cache
+C:\Users\Shalini\Desktop\Latest code\DOT_CSharp\obj\Debug\net5.0\UnregisteredVehiclePermitAutomation.csproj.AssemblyReference.cache

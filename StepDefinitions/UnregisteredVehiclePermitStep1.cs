@@ -15,11 +15,11 @@ namespace DOT_CSharp.StepDefinitions
     public class UnregisteredVehiclePermitStep1
     {
         private DriverHelper _driverHelper;
-        UnregisteredVehiclePermitPage step1Page;
+        UVPStep1Page step1Page;
 
         public UnregisteredVehiclePermitStep1(DriverHelper driverHelper) {
             _driverHelper = driverHelper;
-            step1Page = new UnregisteredVehiclePermitPage(_driverHelper.Driver);
+            step1Page = new UVPStep1Page(_driverHelper.Driver);
         }
 
 

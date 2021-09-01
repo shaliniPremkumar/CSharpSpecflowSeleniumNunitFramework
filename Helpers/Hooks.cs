@@ -17,11 +17,11 @@ using WebDriverManager.Helpers;
 namespace DOT_CSharp.Test
 {
     [Binding]
-    public sealed class Hooks
+
+    public class Hooks
     {
         private DriverHelper _driverHelper;
         public Hooks(DriverHelper driverHelper) => _driverHelper = driverHelper;
-
         public static ConfigSetting config;
         public static string configSettingPath = System.IO.Directory.GetParent(@"../../..").FullName + Path.DirectorySeparatorChar + "DOT_CSharp/Configuration/ConfigSetting.json";
 
@@ -33,19 +33,19 @@ namespace DOT_CSharp.Test
             builder.AddJsonFile(configSettingPath);
             IConfigurationRoot configuration = builder.Build();
             configuration.Bind(config);
+            
 
             ChromeOptions option = new();
             option.AddArguments("--disable - gpu",
                       "--window-size=1920,1200",
                       "--ignore-certificate-errors",
-                      "",
                       "--headless");
 
             new DriverManager().SetUpDriver(new ChromeConfig(), VersionResolveStrategy.MatchingBrowser);
             Console.WriteLine("Setup");
             _driverHelper.Driver = new ChromeDriver();
             _driverHelper.Driver.Manage().Window.Maximize();
-            _driverHelper.Driver.Navigate().GoToUrl(config.ApplicationURLBase+config.ApplicationURLDomain);
+            _driverHelper.Driver.Navigate().GoToUrl(config.ApplicationURLBase + config.ApplicationURLDomain);
         }
 
 

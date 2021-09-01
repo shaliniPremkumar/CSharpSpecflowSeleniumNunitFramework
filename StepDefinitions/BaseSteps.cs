@@ -5,6 +5,7 @@ using DOT_CSharp.Pages;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using System;
+using System.Collections.Generic;
 using TechTalk.SpecFlow;
 
 namespace DOT_CSharp.StepDefinitions
@@ -14,7 +15,7 @@ namespace DOT_CSharp.StepDefinitions
     {
         private DriverHelper _driverHelper;
         BaseClassPage basePage;
-
+        public Dictionary<string, int> d = new Dictionary<string, int>();
         public BaseSteps(DriverHelper driverHelper)
         {
             _driverHelper = driverHelper;
