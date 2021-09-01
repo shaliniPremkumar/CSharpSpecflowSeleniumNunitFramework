@@ -10,7 +10,7 @@ NUnit 3.x
 utilises Page Object Model pattern
 
 
-## Getting started
+## Getting started:
 
 ## Visual Studio Config
 * Install Visual Studio (Community 2019)
